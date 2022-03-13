@@ -1,0 +1,41 @@
+:root {
+  --color_background: #f5f5f5;
+  --color_text_github: #100f0f;
+  --color_border_color: #dcdbda;
+  --color_background_header: #ffffff;
+  --color_background_scroll: #adb5bd;
+  --color_background_card: #ffffff;
+  --color_background_card_tech: #ced4da;
+  --color_background_card_tech_text: #333;
+}
+
+[data-theme="dark"] {
+  --color_background: #131516;
+  --color_text_github: #fff;
+  --color_border_color: #fff;
+  --color_background_header: #0047BB;
+  --color_background_scroll: #0047BB;
+  --color_background_card: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscal;
+
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--color_background);
+  transition: all .25s;
+}

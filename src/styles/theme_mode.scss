@@ -1,0 +1,15 @@
+.toggle-theme-wrapper {
+  display: flex;
+  align-items: center;
+
+  #checkbox {
+    display: none;
+  }
+
+  .toggle-theme {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

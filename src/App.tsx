@@ -1,5 +1,10 @@
+// React
+import React from 'react'
+
+// Local
+import './styles/index.scss'
+import { Routes } from './routes'
+
 export function App() {
-  return (
-    <h1>ad</h1>
-  )
+  return <Routes />
 }
